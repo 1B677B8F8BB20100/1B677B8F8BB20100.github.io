@@ -94,7 +94,7 @@ We can now drop the assumption Alice already knew the key of Bob's report. This 
 Here is my vision:
 
 | version | feature set |
-|-
+| --- | --- |
 | 0.2 | DHT, UDP transport, [NAT traversal](https://en.wikipedia.org/wiki/NAT_traversal). |
 | 0.4 | Swarms, tunnels, garlic routing. |
 | 0.6 | Merkle-CRDTs, GossipSub, Hashcash. |
@@ -142,7 +142,7 @@ I do not like fame. This specifically includes that part where people who like t
 
 I chose it to be the same as the [GPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) key ID I use to sign everything including my commits:
 
-![Commit signature](commit-signature.png){:width="260"}
+<img src="https://raw.githubusercontent.com/1B677B8F8BB20100/1B677B8F8BB20100.github.io/master/introduction/commit-signature.png" alt="Commit signature" width="260">
 
 ### Why Pepe, is it not a hate symbol?
 
@@ -188,12 +188,13 @@ Believe it or not, but Andoid-based smartphones are available for purchase and a
 
 I am planning to gradually increase support for various operating systems and hardware architectures with each new version of Pepe:
 
-| | 64-bit x86 | 32-bit x86 | 64-bit ARM | 32-bit ARM | 64-bit RISC-V |
-| GNU/Linux | v0.2 | v0.4 | v0.4 | v0.2 | v1.2 |
-| macOS | v0.2 | probably no | v0.8 | N/A | N/A |
-| Windows | v0.6 | v0.6 | no idea when | no idea when | N/A |
-| \*BSD | v0.4 | v0.4 | v0.6 | v0.6 | no idea when |
-| Android | v1.8 | v1.8 | v1.8 | v1.8 | N/A |
+| | GNU/Linux | macOS | Windows | \*BSD | Android |
+| --- | --- | --- | --- | --- | --- |
+| **64-bit x86** | v0.2 | v0.2 | v0.6 | v0.4 | v1.8 |
+| **32-bit x86** | v0.4 | probably never | v0.6 | v0.4 | v1.8 |
+| **64-bit ARM** | v0.4 | v0.8 | no idea when | v0.6 | v1.8 |
+| **32-bit ARM** | v0.2 | N/A | no idea when | v0.6 | v1.8 |
+| **64-bit RISC-V** | v1.2 | N/A | N/A | no idea when | N/A |
 
 ### Why is there no iOS among the supported platforms?
 
